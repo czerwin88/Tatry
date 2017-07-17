@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+body {
+    font-family: 'Open Sans', serif;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+section.jumbotron {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/da/PanoramaTatr.jpg);
+}
+
+section.jumbotron h1 {
+    color: #fff;
+}
+
+img {
+    max-height: 250px;
+}
+
+@media (max-width: 768px) {
+    
+    body { 
+        padding-top: 300px;
+    }
+
+}
